@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Cricket Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="heading-container">
+        <h1 class="head1">Digital Hand Cricket</h1>
+    </div>
+
+    <main class="main-class">
+        <h3 class="head2">Let's Play</h3>
+        <div class="tossChoices">
+            <button id="Heads" class="choice">Heads</button>
+            <button id="Tails" class="choice">Tails</button>
+        </div>
+        <button id="startGamePlay">Continue</button>
+    </main>
+
+    <div class="GamePlay">
+        <div class="gameWinner">
+            <div class="user">
+                <span>YOU</span>
+                <div id="usrTotalScore">0</div>
+            </div>
+            <div class="computer">
+                <span>COMPUTER</span>
+                <div id="compTotalScore">0</div>
+            </div>
+        </div>
+
+        <div class="yourPosition">
+            <div>
+                <span>Status : </span>
+                <span id="status"></span>
+            </div>
+        </div>
+
+        <div class="runs">
+            <button class="oneRun" id="run">1</button>
+            <button class="twoRun" id="run">2</button>
+            <button class="ThreeRun" id="run">3</button>
+            <button class="fourRun" id="run">4</button>
+            <button class="fiveRun" id="run">5</button>
+            <button class="sixRun" id="run">6</button>
+        </div>
+
+        <div class="choices">
+            <div class="youChoice">
+                <span>YOU HAVE CHOSE</span>
+                <div id="userChoice">0</div>
+            </div>
+
+            <div class="compChoice">
+                <span>COMPUTER HAS CHOSE</span>
+                <div id="computerChoice">0</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="first-Inning-completed">
+        <h3 id="inning-completed">OUT</h3>
+        <!-- <button id="secondInning">Continue</button> -->
+    </div>
+
+    <div class="reset-Game hide">
+        <button class="reset-btn">New Game</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

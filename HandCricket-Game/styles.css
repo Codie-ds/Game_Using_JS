@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(13, 12, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1,
+.head2{
+    color: yellowgreen;
+}
+
+.head1{
+    font-size: 4rem;
+}
+
+.main-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head2{
+    max-width: 1200px;
+    margin-top: 5rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.tossChoices{
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+}
+
+#Heads,
+#Tails{
+    background-color: rgb(176, 255, 19);
+    padding: 1.3rem;
+    font-weight: 650;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 2.4rem;
+    cursor: pointer;
+}
+
+#startGamePlay{
+    visibility: hidden;
+    background-color: rgb(176, 255, 19);
+    padding: 1.3rem;
+    font-weight: 650;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 2.4rem;
+    cursor: pointer;
+}
+
+.GamePlay{
+    visibility: hidden;
+    position: absolute;
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.gameWinner{
+    display: flex;
+    gap: 5rem;
+}
+
+.user,
+.computer{
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    border: 2px solid yellow;
+    padding: 1rem 9rem;
+    border-radius: 1rem;
+}
+
+.computer{
+    padding: 1rem 7rem;
+}
+
+#usrTotalScore,
+#compTotalScore{
+    display: flex;
+    justify-content: center;
+}
+
+.yourPosition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yourPosition span{
+    font-size: 1.1rem;
+    color: yellow;
+}
+
+.runs{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.runs button{
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: rgb(167, 238, 25);
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.choices{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.youChoice,
+.compChoice{
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.825rem;
+    border: 2px solid yellow;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
+}
+
+.compChoice{
+    padding: 1rem 2.5rem;
+}
+
+#userChoice,
+#computerChoice{
+    display: flex;
+    justify-content: center;
+}
+
+.first-Inning-completed{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.first-Inning-completed h3,span{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(194, 194, 68);
+}
+
+#secondInning{
+    font-size: 1.625rem;
+    font-weight: 550;
+    padding: 1.5rem 2rem;
+    background-color: rgb(159, 232, 12);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.reset-btn{
+    background-color: rgb(176, 255, 19);
+    padding: 1.3rem;
+    font-weight: 650;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 2.4rem;
+    cursor: pointer;
+}
+
+.hide{
+    visibility: hidden;
+}
