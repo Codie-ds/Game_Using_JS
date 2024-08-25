@@ -8,15 +8,17 @@
 Here I am try to make beginner friendly game using JavaScript.
 
 # Tools And Languages Used:
-<img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/html.svg" alt="Sample Image" width="100" height="90">
-
-<img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/css.svg" alt="Sample Image" width="100" height="90">
-
-<img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/js.svg" alt="Sample Image" width="100" height="90">
-
-<img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/git.svg" alt="Sample Image" width="100" height="90">
-
-<img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/gitHub.svg" alt="Sample Image" width="100" height="90">
+<div>
+  <img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/html.svg" alt="Sample Image" width="100" height="100">
+  
+  <img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/css.png" alt="Sample Image" width="100" height="100">
+  
+  <img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/js.svg" alt="Sample Image" width="100" height="100">
+  
+  <img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/git.svg" alt="Sample Image" width="100" height="100">
+  
+  <img src="https://github.com/Codie-ds/Codie-ds/blob/main/icons/gitHub.svg" alt="Sample Image" width="100" height="100">
+</div>
 
 ## Download All and Usage :
 
@@ -33,11 +35,12 @@ and open the folder and run index.html
     
 ##  See all projects individualy 
 
-<ol>
-  <a href="https://github.com/Codie-ds/Game_Using_JS/tree/main/HandCricket-Game"/><li>Digital HandCricket</li></a>
+  ✅ <a href="https://github.com/Codie-ds/Game_Using_JS/tree/main/HandCricket-Game"/>Digital HandCricket </a></li>
     
-  <a href="https://github.com/Codie-ds/Game_Using_JS/tree/main/HandCricket-Game"/><li>Tic-Tac_Toe</li></a> 
+  ✅ <a href="#"/> Tic-Tac_Toe </a></li> 
 
-  <a href="https://github.com/Codie-ds/Game_Using_JS/tree/main/HandCricket-Game"/><li>Stone-Paper-Scissors</li></a>
-</ol>
+  ✅ <a href="#"/> Stone-Paper-Scissors </a></li>
+
+
+
 
